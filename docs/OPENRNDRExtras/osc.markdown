@@ -10,7 +10,7 @@ has_children: false
  
 # Handling OSC messages with orx-osc
 
-The [`orx-osc`](https://github.com/openrndr/orx/tree/master/orx-osc) 
+The [`orx-osc`](https://github.com/openrndr/orx/tree/master/orx-jvm/orx-osc) 
 osc provides a simple interface to interact with OSC hosts and clients. 
 
 ## Prerequisites

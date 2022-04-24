@@ -117,5 +117,5 @@ val v4 = Random.vector4(-1.0, 1.0)
 ```
 
 To generate random distributions of vectors see 
-[orx-noise](10_OPENRNDR_Extras/C01_Noise).
+[orx-noise](https://guide.openrndr.org/OPENRNDRExtras/noise.html).
  

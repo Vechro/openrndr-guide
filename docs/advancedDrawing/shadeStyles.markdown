@@ -21,7 +21,7 @@ and in the fragment transform it is possible to change the appearance of that
 geometry. A shade style can affect vertices, fragments or both.
 
 A selection of preset ready-to-use shade styles is provided by 
-[`orx-shade-styles`](10_OPENRNDR_Extras/C09_Shade_style_presets) 
+[`orx-shade-styles`](https://guide.openrndr.org/OPENRNDRExtras/shadeStylePresets.html) 
 
 For those interested in authoring shade styles it is helpful to have 
 some basic understanding of shaders and GLSL.
