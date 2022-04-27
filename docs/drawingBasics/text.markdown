@@ -16,7 +16,8 @@ in a designated text area.
  
 ## Simple text rendering
 
-To render simple texts we first make sure a font is loaded and assigned to `drawer.fontMap`, we then use [`drawer.text`](https://api.openrndr.org/org.openrndr.draw/-drawer/text.html) to
+To render simple texts we first make sure a font is loaded and assigned to `drawer.fontMap`, 
+we then use [`drawer.text`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-draw/src/commonMain/kotlin/org/openrndr/draw/Drawer.kt#L1200) to
 draw the text. 
  
 <img alt="media/text-001.jpg" src="../media/text-001.jpg" loading="lazy"> 
@@ -39,7 +40,10 @@ fun main() = application {
  
 ## Advanced text rendering
 
-OPENRNDR comes with a [`Writer`](https://api.openrndr.org/org.openrndr.text/-writer/index.html) class that allows for basic typesetting. The `Writer` tool is based on the concept of text box and a cursor.
+OPENRNDR comes with a 
+[`Writer`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-draw/src/commonMain/kotlin/org/openrndr/draw/Writer.kt#L22) 
+class that allows for basic typesetting. The `Writer` tool is based 
+on the concept of text box and a cursor.
 
 Its use is easiest demonstrated through an example: 
  

@@ -13,7 +13,7 @@ has_children: false
 ## Animatable
 
 Anything that should be animated inherits the 
-[`Animatable`](https://api.openrndr.org/org.openrndr.animatable/-animatable/index.html) 
+[`Animatable`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-animatable/src/commonMain/kotlin/org/openrndr/animatable/Animatable.kt#L35) 
 class. The Animatable class provides animation logic.
 
 Displayed below is a very simple animation setup in which we animate a 
@@ -125,7 +125,7 @@ A simple trick for making animations less stiff is to specify an easing.
 
 To demonstrate we take one of the previously shown animations and add easings.
 
-Available [Easings](https://api.openrndr.org/org.openrndr.animatable.easing/-easing/index.html)  
+Available [Easings](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-animatable/src/commonMain/kotlin/org/openrndr/animatable/easing/Easer.kt#L10)  
  
 <video controls preload="none" loop poster="../media/animations-101-thumb.jpg">
     <source src="../media/animations-101.mp4" type="video/mp4"></source>
@@ -263,7 +263,7 @@ Thus far we have only worked with `Double` properties in our animations.
 However, animation is not limited to Doubles.
     
 Any property that is a 
-[`LinearType`](https://api.openrndr.org/org.openrndr.math/-linear-type/index.html) 
+[`LinearType`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-math/src/commonMain/kotlin/org/openrndr/math/LinearType.kt) 
 can be animated through Animatable. 
  
 ```kotlin

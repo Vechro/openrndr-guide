@@ -25,7 +25,7 @@ val cb = colorBuffer(640, 480)
 Color buffers can be created in different formats. The buffer format 
 specifies the number and order of channels in the image. Color buffers 
 can have 1 to 4 channels. The `format` argument can be any 
-[`ColorFormat`](https://api.openrndr.org/org.openrndr.draw/-color-format/index.html) value.   
+[`ColorFormat`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-draw/src/commonMain/kotlin/org/openrndr/draw/DrawStyle.kt#L108) value.   
  
 ```kotlin
 val cb = colorBuffer(640, 480, format = ColorFormat.R)
@@ -35,7 +35,7 @@ val cb = colorBuffer(640, 480, format = ColorFormat.R)
 
 The buffer type specifies which data type is used for storing colors 
 in the buffer. The `type` argument can be any 
-[`ColorType`](https://api.openrndr.org/org.openrndr.draw/-color-type/index.html) value. 
+[`ColorType`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-draw/src/commonMain/kotlin/org/openrndr/draw/DrawStyle.kt#L153) value. 
  
 ```kotlin
 val cb = colorBuffer(640, 480, type = ColorType.FLOAT16)
