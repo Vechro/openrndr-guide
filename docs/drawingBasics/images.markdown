@@ -16,7 +16,7 @@ Images are stored in `ColorBuffer` instances, the image data resides in GPU memo
 
 Images are loaded using the `loadImage` function and drawn using `Drawer.image`. 
  
-<img alt="media/image-001.jpg" src="../media/image-001.jpg" loading="lazy"> 
+<img alt="../media/image-001.jpg" src="../media/image-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -50,7 +50,7 @@ drawer.image(image, 40.0, 40.0, 64.0, 48.0)
 It is possible to draw parts of images by specifying _source_ and _target_ rectangles. The source rectangle describes
 the area that should be taken from the image and presented in the target rectangle. 
  
-<img alt="media/image-002.jpg" src="../media/image-002.jpg" loading="lazy"> 
+<img alt="../media/image-002.jpg" src="../media/image-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -70,7 +70,7 @@ fun main() = application {
  
 ## Drawing many parts of images 
  
-<img alt="media/image-003.jpg" src="../media/image-003.jpg" loading="lazy"> 
+<img alt="../media/image-003.jpg" src="../media/image-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -101,7 +101,7 @@ A linear color transform can be applied to images by setting `Drawer.drawStyle.c
 
 Tinting multiplies the image color with a _tint color_. 
  
-<img alt="media/image-004.jpg" src="../media/image-004.jpg" loading="lazy"> 
+<img alt="../media/image-004.jpg" src="../media/image-004.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -122,7 +122,7 @@ fun main() = application {
 
 Drawing an image with inverted colors can be achieved by using the `invert` color matrix. 
  
-<img alt="media/image-005.jpg" src="../media/image-005.jpg" loading="lazy"> 
+<img alt="../media/image-005.jpg" src="../media/image-005.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -143,7 +143,7 @@ fun main() = application {
 
 Drawing an image with inverted colors can be achieved by using the `grayscale` color matrix. 
  
-<img alt="media/image-006.jpg" src="../media/image-006.jpg" loading="lazy"> 
+<img alt="../media/image-006.jpg" src="../media/image-006.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -167,7 +167,7 @@ Color transforms can be combined using the multiplication operator. This is call
 Keep in mind that transform concatenations are read from right to left, and in the following example we first
 apply the `grayscale` transform and then the `tint` transform. 
  
-<img alt="media/image-007.jpg" src="../media/image-007.jpg" loading="lazy"> 
+<img alt="../media/image-007.jpg" src="../media/image-007.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

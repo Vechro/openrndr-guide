@@ -20,7 +20,7 @@ To render simple texts we first make sure a font is loaded and assigned to `draw
 we then use [`drawer.text`](https://github.com/openrndr/openrndr/blob/v0.4.0-rc.7/openrndr-draw/src/commonMain/kotlin/org/openrndr/draw/Drawer.kt#L1200) to
 draw the text. 
  
-<img alt="media/text-001.jpg" src="../media/text-001.jpg" loading="lazy"> 
+<img alt="../media/text-001.jpg" src="../media/text-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -47,7 +47,7 @@ on the concept of text box and a cursor.
 
 Its use is easiest demonstrated through an example: 
  
-<img alt="media/text-002.jpg" src="../media/text-002.jpg" loading="lazy"> 
+<img alt="../media/text-002.jpg" src="../media/text-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -83,7 +83,7 @@ to a 300 by 300 pixel rectangle starting at (40, 40).
 We see that the text is now drawn with margins above and left of the text, and that the second line of
 text is set on two rows. 
  
-<img alt="media/text-003.jpg" src="../media/text-003.jpg" loading="lazy"> 
+<img alt="../media/text-003.jpg" src="../media/text-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

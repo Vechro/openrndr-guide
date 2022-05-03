@@ -33,7 +33,7 @@ OPENRNDRs templated shaders.
 
 As a quick first step we override the output to red in the following snippet 
  
-<img alt="media/shadestyles-001.jpg" src="../media/shadestyles-001.jpg" loading="lazy"> 
+<img alt="../media/shadestyles-001.jpg" src="../media/shadestyles-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -56,7 +56,7 @@ The idea of shade styles is to allow more complex changes in the appearance.
 In the next snippet we create
 a wavy pattern by using cosines and the screen position. 
  
-<img alt="media/shadestyles-002.jpg" src="../media/shadestyles-002.jpg" loading="lazy"> 
+<img alt="../media/shadestyles-002.jpg" src="../media/shadestyles-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

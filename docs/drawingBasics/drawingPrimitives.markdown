@@ -17,7 +17,7 @@ In this topic we introduce OPENRNDR's basic drawing primitives. We show how to d
 A circle is drawn around coordinates `x`, `y`, i.e. `x` and `y` specify the center of the circle.
 Circles are filled with the color set in `Drawer.fill` and their stroke is set to `Drawer.stroke`. The width of the stroke follows `Drawer.strokeWeight`. 
  
-<img alt="media/circle-001.jpg" src="../media/circle-001.jpg" loading="lazy"> 
+<img alt="../media/circle-001.jpg" src="../media/circle-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -56,7 +56,7 @@ drawer.circle(mouse.position, 50.0)
  
 ## Drawing rectangles 
  
-<img alt="media/rectangle-001.jpg" src="../media/rectangle-001.jpg" loading="lazy"> 
+<img alt="../media/rectangle-001.jpg" src="../media/rectangle-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -97,7 +97,7 @@ BUTT     | butt cap
 ROUND    | round cap
 SQUARE   | square cap 
  
-<img alt="media/line-001.jpg" src="../media/line-001.jpg" loading="lazy"> 
+<img alt="../media/line-001.jpg" src="../media/line-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -127,7 +127,7 @@ fun main() = application {
 A run of connected line segments is called a line strip and is drawn using `lineStrip`.
 To draw a line strip one supplies a list of points between which line segments should be drawn. 
  
-<img alt="media/line-002.jpg" src="../media/line-002.jpg" loading="lazy"> 
+<img alt="../media/line-002.jpg" src="../media/line-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

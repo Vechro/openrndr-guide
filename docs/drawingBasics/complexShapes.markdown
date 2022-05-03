@@ -36,7 +36,7 @@ The `ContourBuilder` class offers a simple way of producing complex two dimensio
 
 Let's create a simple `Contour` and draw it. The following program shows how to use the contour builder to create a triangular contour. 
  
-<img alt="media/shapes-001.jpg" src="../media/shapes-001.jpg" loading="lazy"> 
+<img alt="../media/shapes-001.jpg" src="../media/shapes-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -67,7 +67,7 @@ fun main() = application {
 Now let's create a `Shape` using the _shape builder_. The shape is created using two contours, one for
 _outline_ of the shape, and one for the _hole_ in the shape 
  
-<img alt="media/shapes-002.jpg" src="../media/shapes-002.jpg" loading="lazy"> 
+<img alt="../media/shapes-002.jpg" src="../media/shapes-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -119,7 +119,7 @@ Boolean-operations can be performed on shapes using the `compound {}` builder.
 There are three kinds of compounds: _union_, _difference_ and _intersection_, 
 all three of them are shown in the example below. 
  
-<img alt="media/shapes-003.jpg" src="../media/shapes-003.jpg" loading="lazy"> 
+<img alt="../media/shapes-003.jpg" src="../media/shapes-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -169,7 +169,7 @@ previous example demonstrated because it can actually work with an
 entire tree of compounds. Demonstrated below is the _union_ of 
 two _intersections_. 
  
-<img alt="media/shapes-004.jpg" src="../media/shapes-004.jpg" loading="lazy"> 
+<img alt="../media/shapes-004.jpg" src="../media/shapes-004.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

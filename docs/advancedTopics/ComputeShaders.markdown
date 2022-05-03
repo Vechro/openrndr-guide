@@ -46,7 +46,7 @@ void main() {
 }
 ``` 
  
-<img alt="media/compute-shaders-001.jpg" src="../media/compute-shaders-001.jpg" loading="lazy"> 
+<img alt="../media/compute-shaders-001.jpg" src="../media/compute-shaders-001.jpg" loading="lazy"> 
  
 The second code block is an OPENRNDR program making use of the compute shader:
 1. It creates a compute shader program from a file. 

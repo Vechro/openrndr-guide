@@ -50,7 +50,7 @@ val v3 = Vector3.uniformRing(0.0, 300.0)
 val v4 = Vector4.uniformRing(0.0, 300.0)
 ``` 
  
-<img alt="media/orx-noise-001.jpg" src="../media/orx-noise-001.jpg" loading="lazy"> 
+<img alt="../media/orx-noise-001.jpg" src="../media/orx-noise-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -71,7 +71,7 @@ fun main() = application {
  
 ## Perlin noise 
  
-<img alt="media/orx-noise-002.jpg" src="../media/orx-noise-002.jpg" loading="lazy"> 
+<img alt="../media/orx-noise-002.jpg" src="../media/orx-noise-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -95,7 +95,7 @@ fun main() = application {
  
 ## Value noise 
  
-<img alt="media/orx-noise-003.jpg" src="../media/orx-noise-003.jpg" loading="lazy"> 
+<img alt="../media/orx-noise-003.jpg" src="../media/orx-noise-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -119,7 +119,7 @@ fun main() = application {
  
 ## Simplex noise 
  
-<img alt="media/orx-noise-004.jpg" src="../media/orx-noise-004.jpg" loading="lazy"> 
+<img alt="../media/orx-noise-004.jpg" src="../media/orx-noise-004.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

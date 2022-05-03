@@ -53,7 +53,7 @@ fun main() = application {
  
 [Link to the full example](https://github.com/openrndr/openrndr-examples/blob/master/src/main/kotlin/examples/10_OPENRNDR_Extras/C08_Quick_UIs000.kt) 
  
-<img alt="media/quick-ui-001.jpg" src="../media/quick-ui-001.jpg" loading="lazy"> 
+<img alt="../media/quick-ui-001.jpg" src="../media/quick-ui-001.jpg" loading="lazy"> 
  
 This shows a side panel with 3 buttons: The randomize button can be 
 pressed to randomize the parameters in the sidebar. The load and save 

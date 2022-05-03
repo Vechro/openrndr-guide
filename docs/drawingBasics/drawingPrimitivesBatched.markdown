@@ -31,7 +31,7 @@ This example makes use of `Circle` (a class with properties like
 Calling `drawer.circles()` to draw a list of `Circle` is much faster than 
 calling `drawer.circle()` multiple times. 
  
-<img alt="media/batching-circles-001.jpg" src="../media/batching-circles-001.jpg" loading="lazy"> 
+<img alt="../media/batching-circles-001.jpg" src="../media/batching-circles-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -69,7 +69,7 @@ drawer.circles(positions, 20.0)
 To have a unique radius per circle we can provide a list of Double as a
 second argument:   
  
-<img alt="media/batching-circles-002.jpg" src="../media/batching-circles-002.jpg" loading="lazy"> 
+<img alt="../media/batching-circles-002.jpg" src="../media/batching-circles-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -94,7 +94,7 @@ What about unique colors and `strokeWeight`s per circle?
 Creating static or dynamic batches makes it possible, 
 both shown in the next example.           
  
-<img alt="media/batching-circles-003.jpg" src="../media/batching-circles-003.jpg" loading="lazy"> 
+<img alt="../media/batching-circles-003.jpg" src="../media/batching-circles-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -146,7 +146,7 @@ using `Rectangle.fromCenter()`.
 Calling `drawer.rectangles()` to draw a rectangle batch is much faster 
 than calling `drawer.rectangle()` multiple times. 
  
-<img alt="media/batching-rectangles-001.jpg" src="../media/batching-rectangles-001.jpg" loading="lazy"> 
+<img alt="../media/batching-rectangles-001.jpg" src="../media/batching-rectangles-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -191,7 +191,7 @@ and rectangles. In this case we use a `PointBatchBuilder` and its
 `.point()` method. Note that we can specify the color of each point by 
 using `.fill`. 
  
-<img alt="media/batching-points-001.jpg" src="../media/batching-points-001.jpg" loading="lazy"> 
+<img alt="../media/batching-points-001.jpg" src="../media/batching-points-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

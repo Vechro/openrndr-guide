@@ -97,7 +97,7 @@ geometry.put {
  
 ### Drawing vertex buffers 
  
-<img alt="media/custom-rendering-001.jpg" src="../media/custom-rendering-001.jpg" loading="lazy"> 
+<img alt="../media/custom-rendering-001.jpg" src="../media/custom-rendering-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -131,7 +131,7 @@ the vertex buffer can be fully customized.
 The last snippet can be modified to include a simple shading over the 
 geometry 
  
-<img alt="media/custom-rendering-002.jpg" src="../media/custom-rendering-002.jpg" loading="lazy"> 
+<img alt="../media/custom-rendering-002.jpg" src="../media/custom-rendering-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -167,7 +167,7 @@ Per instance attributes can be stored in a vertex buffer. For example a
 transform per instance can be realized by
 creating a second vertex buffer which will contain matrix attributes. 
  
-<img alt="media/custom-rendering-003.jpg" src="../media/custom-rendering-003.jpg" loading="lazy"> 
+<img alt="../media/custom-rendering-003.jpg" src="../media/custom-rendering-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

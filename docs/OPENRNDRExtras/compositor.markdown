@@ -122,7 +122,7 @@ fun main() = application {
  
 This produces: 
  
-<img alt="media/compositor-001.jpg" src="../media/compositor-001.jpg" loading="lazy"> 
+<img alt="../media/compositor-001.jpg" src="../media/compositor-001.jpg" loading="lazy"> 
  
 You may be thinking: "yeah great, we added all that extra structure 
 to the code, but it doesn't do a single thing that could not be achieved 
@@ -171,7 +171,7 @@ fun main() = application {
  
 The output: 
  
-<img alt="media/compositor-002.jpg" src="../media/compositor-002.jpg" loading="lazy"> 
+<img alt="../media/compositor-002.jpg" src="../media/compositor-002.jpg" loading="lazy"> 
  
 We now see a couple of differences. The smaller circle is blurred while 
 the larger circle is not; The area where the two circles overlap 

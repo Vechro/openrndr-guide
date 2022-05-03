@@ -28,7 +28,7 @@ program's `draw()` has been invoked.
 To create a very simple user interface that consists of just a single 
 button one would do the following: 
  
-<img alt="media/ui-001.jpg" src="../media/ui-001.jpg" loading="lazy"> 
+<img alt="../media/ui-001.jpg" src="../media/ui-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -62,7 +62,7 @@ systems, one of those ideas is style sheets.
 Style sheets can be used as shown in the following example in which a 
 style sheet is used to color a button pink. 
  
-<img alt="media/ui-002.jpg" src="../media/ui-002.jpg" loading="lazy"> 
+<img alt="../media/ui-002.jpg" src="../media/ui-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -144,7 +144,7 @@ An ordinary labelled button.
 The default width of buttons is set to Auto such that the width is 
 determined by the label contents. 
  
-<img alt="media/ui-006.jpg" src="../media/ui-006.jpg" loading="lazy"> 
+<img alt="../media/ui-006.jpg" src="../media/ui-006.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -182,7 +182,7 @@ A horizontal labelled slider control.
 
 * `valueChanged` - emitted when the slider value has changed 
  
-<img alt="media/ui-007.jpg" src="../media/ui-007.jpg" loading="lazy"> 
+<img alt="../media/ui-007.jpg" src="../media/ui-007.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -219,7 +219,7 @@ A button like control that slides out a HSV color picker when clicked
 
 * `valueChanged` - emitted when a color is picked 
  
-<img alt="media/ui-008.jpg" src="../media/ui-008.jpg" loading="lazy"> 
+<img alt="../media/ui-008.jpg" src="../media/ui-008.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -255,7 +255,7 @@ A button like control that slides out a list of items when clicked.
 
 * `valueChanged` - emitted when an option is picked 
  
-<img alt="media/ui-009.jpg" src="../media/ui-009.jpg" loading="lazy"> 
+<img alt="../media/ui-009.jpg" src="../media/ui-009.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

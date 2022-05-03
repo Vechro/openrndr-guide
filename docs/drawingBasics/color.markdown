@@ -67,7 +67,7 @@ The `ColorRGBa` class offers a number of tools to
 create variations of colors. For example `ColorRGBa.shade` can be
 used to create lighter or darker shades of a base color. 
  
-<img alt="media/color-001.jpg" src="../media/color-001.jpg" loading="lazy"> 
+<img alt="../media/color-001.jpg" src="../media/color-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -94,7 +94,7 @@ fun main() = application {
  
 Using `ColorRGBa.opacify` colors can be made more or less opaque. 
  
-<img alt="media/color-002.jpg" src="../media/color-002.jpg" loading="lazy"> 
+<img alt="../media/color-002.jpg" src="../media/color-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -120,7 +120,7 @@ fun main() = application {
  
 Using `mix(ColorRGBa, ColorRGBa, Double)` colors can be mixed. 
  
-<img alt="media/color-003.jpg" src="../media/color-003.jpg" loading="lazy"> 
+<img alt="../media/color-003.jpg" src="../media/color-003.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
@@ -176,7 +176,7 @@ the same as) the Adobe Kuler color spaces.
 Below is an example of plots of color swatches for (from top to bottom) HSV, HSL, XSV and XSL. The adjusted hue of the
 XSV and XSL spaces is clearly visible. 
  
-<img alt="media/color-004.jpg" src="../media/color-004.jpg" loading="lazy"> 
+<img alt="../media/color-004.jpg" src="../media/color-004.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

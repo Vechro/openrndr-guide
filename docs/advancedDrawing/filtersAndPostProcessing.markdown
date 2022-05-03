@@ -75,7 +75,7 @@ What follows is an example of how to create a Filter from a shader whose
 code is stored as a String. The filter we will be making is a simple
 noise filter. 
  
-<img alt="media/filters-002.jpg" src="../media/filters-002.jpg" loading="lazy"> 
+<img alt="../media/filters-002.jpg" src="../media/filters-002.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {

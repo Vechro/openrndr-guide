@@ -53,7 +53,7 @@ are not based on OpenGL.
 In the following example we show the minimum steps required for drawing 
 a single triangle.         
  
-<img alt="media/lowlevel-drawing-001.jpg" src="../media/lowlevel-drawing-001.jpg" loading="lazy"> 
+<img alt="../media/lowlevel-drawing-001.jpg" src="../media/lowlevel-drawing-001.jpg" loading="lazy"> 
  
 ```kotlin
 fun main() = application {
