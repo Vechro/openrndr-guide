@@ -4,6 +4,7 @@
 layout: default
 title: Integer color buffers
 parent: Advanced topics
+last_modified_at: 2022.04.25 00:33:54 +0200
 nav_order: 150
 has_children: false
 ---

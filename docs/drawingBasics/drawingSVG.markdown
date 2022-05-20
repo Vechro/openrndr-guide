@@ -4,6 +4,7 @@
 layout: default
 title: Drawing SVG
 parent: Drawing basics
+last_modified_at: 2022.04.09 19:48:56 +0200
 nav_order: 160
 has_children: false
 ---
