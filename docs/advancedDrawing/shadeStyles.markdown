@@ -4,7 +4,7 @@
 layout: default
 title: Shade styles
 parent: Advanced drawing
-last_modified_at: 2022.04.29 11:15:06 +0200
+last_modified_at: 2022.05.24 15:30:33 +0200
 nav_order: 140
 has_children: false
 ---
@@ -174,7 +174,6 @@ Uniform name            | GLSL type             | Description
 `u_modelNormalMatrix`   | mat4                  | matrix used to transform vertex normals from object to world space
 `u_modelMatrix`         | mat4                  | matrix used to transform vertices from object to world space
 `u_viewNormalMatrix`    | mat4                  | matrix used to transform vertex normals from world space to view space
-`u_viewMatrix`          | mat4                  | matrix used to transform vertex normals from world space to view space
 `u_viewMatrix`          | mat4                  | matrix used to transform vertices from world space to view space
 `u_projectionMatrix`    | mat4                  | matrix used to transform vertices from view space to clip space
 `u_contentScale`        | float                 | the active content scale
@@ -209,13 +208,16 @@ These are values that can be transformed using shade styles.
 
 #### Vertex transform
 
-Variable name        | GLSL type | Description
----------------------|-----------|------------
-`x_position`         | `vec3`    | vertex position, initialized with value `a_position`
-`x_normal`           | `vec3`    | vertex normal, initialized with value `a_normal`
-`x_viewMatrix`       | `mat4`    | view matrix
-`x_normalMatrix`     | `mat4`    | normal matrix, initialized with `normalMatrix`
-`x_projectionMatrix` | `mat4`    | projection matrix, initialized with `projectionMatrix`
+Variable name         | GLSL type | Description
+----------------------|-----------|------------
+`x_position`          | `vec3`    | vertex position, initialized with value `a_position`
+`x_normal`            | `vec3`    | vertex normal, initialized with value `a_normal`
+`x_viewMatrix`        | `mat4`    | view matrix
+`x_normalMatrix`      | `mat4`    | normal matrix, initialized with `normalMatrix`
+`x_projectionMatrix`  | `mat4`    | projection matrix, initialized with `projectionMatrix`
+`x_modelMatrix`       | `mat4`    | model matrix, initialized with `modelMatrix`
+`x_modelNormalMatrix` | `mat4`    | model normal matrix, initialized with `modelNormalMatrix`
+`x_viewNormalMatrix`  | `mat4`    | view normal matrix, initialized with `viewNormalMatrix`
 
 #### Fragment transform
 
@@ -260,4 +262,13 @@ Can be used to map custom values.
  `Matrix44`      | `mat4`
  `DepthBuffer`   | `sampler2D`
  `ColorBuffer`   | `sampler2D`
- `BufferTexture` | `samplerBuffer` 
+ `BufferTexture` | `samplerBuffer`
+ 
+#### Source code
+
+One can explore the source code to find out how attributes and uniforms are used: 
+
+* [ShadeStyleGLSL.kt](https://github.com/openrndr/openrndr/blob/master/openrndr-draw/src/jvmMain/kotlin/org/openrndr/draw/ShadeStyleGLSL.kt) (JVM) 
+* [ShadeStyleGLSL.kt](https://github.com/openrndr/openrndr/blob/master/openrndr-draw/src/jsMain/kotlin/org/openrndr/draw/ShadeStyleGLSL.kt) (webgl)
+* [ShaderGeneratorsGL3.kt](https://github.com/openrndr/openrndr/blob/master/openrndr-jvm/openrndr-gl3/src/jvmMain/kotlin/org/openrndr/internal/gl3/ShaderGeneratorsGL3.kt) (JVM)
+* [ShaderGeneratorsWebGL.kt](https://github.com/openrndr/openrndr/blob/master/openrndr-js/openrndr-webgl/src/jsMain/kotlin/org/openrndr/webgl/ShaderGeneratorsWebGL.kt) (webgl) 
